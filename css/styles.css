@@ -52,8 +52,16 @@ table {
    License: none (public domain)
 */
 
+body {
+    background-color: #D5E1EF;
+    font-family: 'Outfit', sans-serif;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
 .attribution {
-    font-size: 11px;
+    font-size: 0.6875em;
     text-align: center;
 }
 
@@ -64,22 +72,23 @@ table {
 .qr-container {
     text-align: center;
     margin: auto;
-    width: 250px;
+    width: 15.625em;
     background-color: #FFFFFF;
-    padding: 15px;
-    border-radius: 15px;
-    margin: 220px auto;
-    filter: drop-shadow(0 0 5px #becad6);
+    padding: 1em;
+    border-radius: 1em;
+    margin: auto;
+    filter: drop-shadow(0 0 5px #becad6);   
+    max-width: 320px;
 }
 
 .qr-container img {
-    width: 250px;
-    border-radius: 10px;
+    width: 100%;
+    border-radius: 0.625em;
 }
 
 .qr-container h1 {
     width: 90%;
-    margin: 16px auto;
+    margin: 1em auto;
     font-weight: bold;
 }
 
@@ -87,10 +96,6 @@ table {
     color: #999ca6;
     font-size: 15px;
     width: 90%;
-    margin: 16px auto;
+    margin: 1em auto;
 }
 
-body {
-    background-color: #D5E1EF;
-    font-family: 'Outfit', sans-serif;
-}
